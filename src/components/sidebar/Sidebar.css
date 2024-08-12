@@ -1,0 +1,151 @@
+.sidebar {
+  background-color: #007bff;
+  color: #ffffff;
+  width: 250px;
+  margin-top: -25px;
+  padding-left: 20px;
+  transition: all 0.3s ease;
+  position: fixed;
+  left: 0;
+  padding-top: 20px;
+}
+
+/* .collapsed {
+  width: 64px;
+} */
+
+.toggle-btn {
+  background-color: transparent;
+  border: none;
+  color: #f7f4f4;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+
+.toggle-btn:focus {
+  outline: none;
+}
+
+.side-bar{
+  color: #ffffff !important;
+}
+
+.side-bar:hover {
+  color: #d3d00a !important;
+}
+
+.side-bar:active {
+  color: #d3d00a !important;
+}
+
+/* .nav-link {
+  color: #ffffff !important;
+} */
+
+.btn-space {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+
+.sidebar-wrapper {
+  padding: 20px;
+}
+
+.sidebar-title {
+  font-size: 16px;
+  color: #d3d0d0;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.sidebar-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar-link:hover {
+  background-color: #d8d50b;
+}
+
+.sidebar-link:active {
+  background-color: #d8d50b;
+}
+
+.sidebar-dropdown-item {
+  cursor: pointer;
+}
+.dropdown-content {
+  background-color: #f9f9f9;
+  margin-top: 5px;
+  padding: 8px;
+  padding-top: 10px;
+  position: absolute;
+  z-index: 1;
+  width: max-content;
+  border-radius: 10px;
+}
+
+.sidebar-dropdown-item:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content .sidebar-link {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: #1137cd;
+}
+
+.dropdown-content .sidebar-link:hover {
+  background-color: #ddd;
+}
+
+.sidebar-toggle {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    width: 900px;
+    position: relative;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 500px;
+    height: fit-content;
+    margin-left: -12px;
+    margin-top: -15px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .collapsed .toggle-btn {
+    display: block;
+  }
+
+  .collapsed .nav-link {
+    text-align: center;
+  }
+}

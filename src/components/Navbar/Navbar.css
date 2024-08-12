@@ -1,0 +1,31 @@
+.navbar {
+  height: 4.375rem;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  position: sticky;
+  font-weight: 600;
+  width: auto;
+  display: flex;
+}
+
+.shadow {
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(68, 68, 68, 0.15) !important;
+}
+
+.danger {
+  background-color: #ffcccc;
+  color: #333;
+  border-radius: 10px;
+  /* Add any additional styles as needed */
+}
+
+div#sidebarContent .nav-item {
+  text-align: right;
+}
+
+.navbar-logo {
+  width: auto;
+  height: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
